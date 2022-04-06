@@ -1,4 +1,4 @@
-package ir.moris.cripotoid.ui.theme
+package ir.moris.cripotoid.presentation.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

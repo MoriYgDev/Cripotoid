@@ -1,4 +1,4 @@
-package ir.moris.cripotoid.ui.theme
+package ir.moris.cripotoid.presentation.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
