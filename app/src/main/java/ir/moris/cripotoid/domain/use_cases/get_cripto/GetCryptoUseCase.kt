@@ -15,7 +15,6 @@ import javax.inject.Inject
 class GetCryptoUseCase @Inject constructor(
     private val repository: CryptoRepository
 ){
-
     operator fun invoke(coinId: String): Flow<Resource<CryptoDetail>> {
         return flow {
             try {
@@ -29,5 +28,4 @@ class GetCryptoUseCase @Inject constructor(
             }
         }
     }
-
 }
