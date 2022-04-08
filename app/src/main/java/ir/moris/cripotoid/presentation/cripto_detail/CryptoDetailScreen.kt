@@ -24,7 +24,7 @@ import ir.moris.cripotoid.presentation.cripto_detail.components.TeamListItem
 import ir.moris.cripotoid.presentation.cripto_list.components.CryptoListItem
 
 @Composable
-fun CryptoListScreen(
+fun CryptoDetailScreen(
     viewModel: CryptoDetailViewModel = hiltViewModel()
 ) {
     val state = viewModel.state.value
