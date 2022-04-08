@@ -1,4 +1,4 @@
-package ir.moris.cripotoid.presentation.cripto_detail.components
+package ir.moris.cripotoid.presentation.cripto_detail
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
@@ -9,7 +9,6 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import ir.moris.cripotoid.common.Constants.PARAM_COIN_ID
 import ir.moris.cripotoid.common.Resource
 import ir.moris.cripotoid.domain.use_cases.get_cripto.GetCryptoUseCase
-import ir.moris.cripotoid.presentation.cripto_detail.CryptoDetailState
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import javax.inject.Inject
